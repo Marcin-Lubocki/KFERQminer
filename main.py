@@ -48,7 +48,7 @@ def is_acetylated(motif):
     is_motif = False
     side = ["K"]
     positive = ["K", "R"]
-    negative = ["D", "E"]
+    negative = ["D", "E", "T", "Y", "S"]
     hydrophobic = ["F", "L", "I", "V"]
 
     if any(aminoacid not in side+positive+negative+hydrophobic for aminoacid in motif):
