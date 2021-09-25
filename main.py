@@ -64,7 +64,7 @@ def is_acetylated(motif):
 def charge_transformation(seq):
     side = ["Q", "N"]
     positive = ["K", "R"]
-    negative = ["D", "E", "T", "Y", "S"]
+    negative = ["D", "E"]
     hydrophobic = ["F", "L", "I", "V"]
 
     seq_charge = ''
@@ -107,7 +107,7 @@ output.close()
 # checking validated motifs from db
 output = open('output_validated.txt', 'w')
 head = ['record_id', 'motif', 'position', 'validation', 'protein', 'author',\
-        'year', 'doi']
+        'year', 'doi\n']
 
 output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
@@ -132,7 +132,7 @@ output.close()
 # checking motifs similar to validated from db
 output = open('output_similar.txt', 'w')
 head = ['record_id', 'motif', 'position', 'validation', 'protein', 'author',\
-        'year', 'doi']
+        'year', 'doi\n']
 output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
     sequence = str(record.seq)
