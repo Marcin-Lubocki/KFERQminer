@@ -65,6 +65,7 @@ def charge_transformation(seq):
     side = ["Q", "N"]
     positive = ["K", "R"]
     negative = ["D", "E"]
+    phosphorylated = ["T", "Y", "S"]
     hydrophobic = ["F", "L", "I", "V"]
 
     seq_charge = ''
@@ -77,6 +78,10 @@ def charge_transformation(seq):
         seq_charge = seq_charge + '-'
       elif aa in hydrophobic:
         seq_charge = seq_charge + '^'
+      elif aa in phosphorylated:
+        seq_charge = seq_charge + '*'
+      else:
+        seq_charge = seq_charge + aa
     return seq_charge
 
 
@@ -122,7 +127,7 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
           n_mers = len(sequence) - len(motif) + 1
           for i in range(n_mers):
             mer = sequence[i:i+5]
-            if mer == motif:
+            if mer == motif or mer == motif[::-1]:
               result = [str(record.description), mer, str(i+1), 'validated',\
                         row[2], row[3], str(row[4]), row[5] + '\n']
               output.write(','.join(result))
@@ -142,11 +147,12 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
 
         # similar
         for row in csv_reader:
-          motif = row[1]
+          motif = row[0]
           n_mers = len(sequence) - len(motif) + 1
           for i in range(n_mers):
             mer = sequence[i:i+5]
-            if charge_transformation(mer) == motif:
+            if charge_transformation(mer) == charge_transformation(motif) or \
+            charge_transformation(mer) == charge_transformation(motif[::-1]):
               result = [str(record.description), mer, str(i+1), 'similar',\
                         row[2], row[3], str(row[4]), row[5] + '\n']
               output.write(','.join(result))
