@@ -85,6 +85,17 @@ def charge_transformation(seq):
     return seq_charge
 
 
+def find_unique_k_mers(seq):
+  k = 5
+  unique_k_mers = []
+  n_mers = len(seq) - k + 1
+  for i in range(n_mers):
+    mer = seq[i:i+k]
+    if mer not in unique_k_mers:
+      unique_k_mers.append(mer)
+  return unique_k_mers
+
+
 # The program starts
 output = open("output.txt", "w")
 input_f = 'input.fasta'
@@ -111,8 +122,8 @@ output.close()
 
 # checking validated motifs from db
 output = open('output_validated.txt', 'w')
-head = ['record_id', 'motif', 'position', 'validation', 'protein', 'author',\
-        'year', 'doi\n']
+head = ['record_id', 'motif', 'position', 'validation', 'reference motif', \
+        'protein', 'author', 'year', 'doi\n']
 
 output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
@@ -123,21 +134,22 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
 
         # identical
         for row in csv_reader:
-          motif = row[0]
-          n_mers = len(sequence) - len(motif) + 1
-          for i in range(n_mers):
-            mer = sequence[i:i+5]
-            if mer == motif or mer == motif[::-1]:
-              result = [str(record.description), mer, str(i+1), 'validated',\
-                        row[2], row[3], str(row[4]), row[5] + '\n']
-              output.write(','.join(result))
+          motif_db = row[0]
+          for motif in find_unique_k_mers(motif_db):
+            n_mers = len(sequence) - len(motif) + 1
+            for i in range(n_mers):
+              mer = sequence[i:i+len(motif)]
+              if mer == motif or mer == motif[::-1]:
+                result = [str(record.description), mer, str(i+1), 'identical',\
+                          motif_db, row[2], row[3], str(row[4]), row[5] + '\n']
+                output.write(','.join(result))
 
 output.close()
 
 # checking motifs similar to validated from db
 output = open('output_similar.txt', 'w')
-head = ['record_id', 'motif', 'position', 'validation', 'protein', 'author',\
-        'year', 'doi\n']
+head = ['record_id', 'motif', 'position', 'validation', 'reference motif', \
+        'protein', 'author', 'year', 'doi\n']
 output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
     sequence = str(record.seq)
@@ -147,14 +159,15 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
 
         # similar
         for row in csv_reader:
-          motif = row[0]
-          n_mers = len(sequence) - len(motif) + 1
-          for i in range(n_mers):
-            mer = sequence[i:i+5]
-            if charge_transformation(mer) == charge_transformation(motif) or \
-            charge_transformation(mer) == charge_transformation(motif[::-1]):
-              result = [str(record.description), mer, str(i+1), 'similar',\
-                        row[2], row[3], str(row[4]), row[5] + '\n']
-              output.write(','.join(result))
+          motif_db = row[0]
+          for motif in find_unique_k_mers(motif_db):
+            n_mers = len(sequence) - len(motif) + 1
+            for i in range(n_mers):
+              mer = sequence[i:i+5]
+              if charge_transformation(mer) == charge_transformation(motif) or \
+              charge_transformation(mer) == charge_transformation(motif[::-1]):
+                result = [str(record.description), mer, str(i+1), 'similar',\
+                          row[2], row[3], str(row[4]), row[5] + '\n'
+                output.write(','.join(result))
 
 output.close()
