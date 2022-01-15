@@ -24,7 +24,7 @@ def is_bonafide(motif):
     return is_motif
 
 
-# is_phosphorylated function takes 5aa subsequence from a protein as an arguemnt and checks if it meets the rules of phosphorylated KFERQ-like motif, returns True or False
+# is_phosphorylated function takes 5aa subsequence from a protein as an argument and checks if it meets the rules of phosphorylated KFERQ-like motif, returns True or False
 def is_phosphorylated(motif):
     is_motif = False
     side = ["Q", "N"]
@@ -43,12 +43,12 @@ def is_phosphorylated(motif):
     return is_motif
 
 
-# is_acetylated function takes 5aa subsequence from a protein as an arguemnt and checks if it meets the rules of acetylated KFERQ-like motif, returns True or False
+# is_acetylated function takes 5aa subsequence from a protein as an argument and checks if it meets the rules of acetylated KFERQ-like motif, returns True or False
 def is_acetylated(motif):
     is_motif = False
     side = ["K"]
     positive = ["K", "R"]
-    negative = ["D", "E", "T", "Y", "S"]
+    negative = ["D", "E"]
     hydrophobic = ["F", "L", "I", "V"]
 
     if any(aminoacid not in side+positive+negative+hydrophobic for aminoacid in motif):
@@ -60,7 +60,7 @@ def is_acetylated(motif):
                     is_motif = True
     return is_motif
 
-# charge_transformation transforms any amino acid sequence into charge string
+
 def charge_transformation(seq):
     side = ["Q", "N"]
     positive = ["K", "R"]
@@ -83,7 +83,7 @@ def charge_transformation(seq):
       else:
         seq_charge = seq_charge + aa
     return seq_charge
-
+  
 
 def find_unique_k_mers(seq):
   k = 5
@@ -115,23 +115,22 @@ for record in SeqIO.parse(input_f, "fasta"):
             result = [str(record.description), mer, 'phosphorylated', str(i+1) + '\n']
             output.write(','.join(result))
         if is_acetylated(mer):
-            result = [str(record.description), mer, 'phosphorylated', str(i+1) + '\n']
+            result = [str(record.description), mer, 'acetylated', str(i+1) + '\n']
             output.write(','.join(result))
 
 output.close()
 
-# checking validated motifs from db
 output = open('output_validated.txt', 'w')
 head = ['record_id', 'motif', 'position', 'validation', 'reference motif', \
         'protein', 'author', 'year', 'doi\n']
+
 
 output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
     sequence = str(record.seq)
 
-    with open('motif_db.txt') as csv_file:
+    with open('motif_db.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
-
         # identical
         for row in csv_reader:
           motif_db = row[0]
@@ -141,10 +140,10 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
               mer = sequence[i:i+len(motif)]
               if mer == motif or mer == motif[::-1]:
                 result = [str(record.description), mer, str(i+1), 'identical',\
-                          motif_db, row[2], row[3], str(row[4]), row[5] + '\n']
+                          motif_db, row[1], row[2], str(row[3]), row[4] + '\n']
                 output.write(','.join(result))
-
 output.close()
+
 
 # checking motifs similar to validated from db
 output = open('output_similar.txt', 'w')
@@ -154,7 +153,7 @@ output.write(','.join(head))
 for record in SeqIO.parse('input.fasta', 'fasta'):
     sequence = str(record.seq)
 
-    with open('motif_db.txt') as csv_file:
+    with open('motif_db.csv') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=';')
 
         # similar
@@ -163,11 +162,11 @@ for record in SeqIO.parse('input.fasta', 'fasta'):
           for motif in find_unique_k_mers(motif_db):
             n_mers = len(sequence) - len(motif) + 1
             for i in range(n_mers):
-              mer = sequence[i:i+5]
+              mer = sequence[i:i+len(motif)]
               if charge_transformation(mer) == charge_transformation(motif) or \
               charge_transformation(mer) == charge_transformation(motif[::-1]):
                 result = [str(record.description), mer, str(i+1), 'similar',\
-                          row[2], row[3], str(row[4]), row[5] + '\n'
+                          motif_db, row[1], row[2], str(row[3]), row[4] + '\n']
                 output.write(','.join(result))
 
 output.close()
