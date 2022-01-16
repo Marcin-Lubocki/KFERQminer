@@ -12,8 +12,7 @@ If you find that a particular motif is missing from the database, please let us 
 
 KFERQminer tool structure
 KFERQminer is a Python-based tool that uses a protein sequence in fasta format as an input from the user and subsequently searches for every possible KFERQ-like motif (based on canonical literature descriptions). Additionally, to narrow the results to the most probable true positives KFERQminer checks the input for the presence of motifs from the KFERQminer database. This way, KFERQminer is able to give the user 3 level scoring:
-
-The user’s protein contains a putative motif based on the classical motif descriptions.
-The user’s protein contains a motif that is similar to one described in literature. The claim is based on the amino acid charge order in a sequence, eg. hydrophobic amino acids are replaced with other hydrophobic amino acids.
-The user’s protein contains a motif that is identical (the exact match) to a motif that has been already described in another study.
+- The user’s protein contains a putative motif based on the classical motif descriptions.
+- The user’s protein contains a motif that is similar to one described in literature. The claim is based on the amino acid charge order in a sequence, eg. hydrophobic amino acids are replaced with other hydrophobic amino acids.
+- The user’s protein contains a motif that is identical (the exact match) to a motif that has been already described in another study.
 In the case of levels 2 and 3, due to the fact the source studies used different methodologies for verifying a motif, we decided to give the user information about the source paper and let him decide on his own about its utility in his research.
