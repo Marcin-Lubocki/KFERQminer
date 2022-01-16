@@ -56,7 +56,7 @@ def is_acetylated(motif):
     is_motif = False
     side = ["K"]
     positive = ["K", "R"]
-    negative = ["D", "E", "T", "Y", "S"]
+    negative = ["D", "E"]
     hydrophobic = ["F", "L", "I", "V"]
 
     if any(aminoacid not in side+positive+negative+hydrophobic for aminoacid in motif):
@@ -127,7 +127,7 @@ def first_phase(input_string):
                 result = [str(record.description), mer, 'phosphorylated', str(i+1)]
                 results.append(result)
             if is_acetylated(mer):
-                result = [str(record.description), mer, 'phosphorylated', str(i+1)]
+                result = [str(record.description), mer, 'acetylated', str(i+1)]
                 results.append(result)
 
     return results
