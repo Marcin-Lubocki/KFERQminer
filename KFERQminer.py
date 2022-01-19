@@ -115,7 +115,7 @@ def first_phase(input_string):
     input_file = StringIO(input_string)
     for record in SeqIO.parse(input_file, "fasta"):
         sequence = str(record.seq)
-        
+        no_motif = True
         n_5_mers = len(sequence) - 4
         for i in range(n_5_mers):
             mer = sequence[i:i+5]
@@ -123,13 +123,17 @@ def first_phase(input_string):
             if is_bonafide(mer):
                 result = [str(record.description), mer, 'canonical', str(i+1)]
                 results.append(result)
+                no_motif = False
             if is_phosphorylated(mer):
                 result = [str(record.description), mer, 'phosphorylated', str(i+1)]
                 results.append(result)
+                no_motif = False
             if is_acetylated(mer):
                 result = [str(record.description), mer, 'acetylated', str(i+1)]
                 results.append(result)
-
+                no_motif = False
+         if no_motif == True:
+            result = [str(record.description), 'No canonical motif found','','']
     return results
 
 def second_phase(input_string, motifs_list):
@@ -141,7 +145,7 @@ def second_phase(input_string, motifs_list):
     input_file = StringIO(input_string)
     for record in SeqIO.parse(input_file, "fasta"):
         sequence = str(record.seq)
-
+        no_motif = True
         for motif_db in motifs_list:
             for motif in find_unique_k_mers(motif_db):
                 n_mers = len(sequence) - len(motif) + 1
@@ -150,7 +154,10 @@ def second_phase(input_string, motifs_list):
                     if mer == motif or mer == motif[::-1]:
                         result = [str(record.description), mer, str(i+1), 'identical', motif_db]
                         results.append(result)
-
+                        no_motif = False
+         if no_motif == True:
+            result = [str(record.description), 'No similar motif in database','','','']
+            
     return results
 
 def third_phase(input_string, motifs_list):
@@ -161,7 +168,7 @@ def third_phase(input_string, motifs_list):
     input_file = StringIO(input_string)
     for record in SeqIO.parse(input_file, "fasta"):
         sequence = str(record.seq)
-
+        no_motif = True
         for motif_db in motifs_list:
             for motif in find_unique_k_mers(motif_db):
                 n_mers = len(sequence) - len(motif) + 1
@@ -171,6 +178,9 @@ def third_phase(input_string, motifs_list):
                   charge_transformation(mer) == charge_transformation(motif[::-1]):
                     result = [str(record.description), mer, str(i+1), 'similar', motif_db]
                     results.append(result)
+                    no_motif = False
+        if no_motif == True:
+            result = [str(record.description), 'No identical motif in database','','','']
 
     return results
 
