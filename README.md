@@ -2,7 +2,7 @@
 Searching for KFERQ-like motifs in whole proteomes
 
 The KFERQminer is a database of described in PubMed literature KFERQ-related motifs and bioinformatic tool that accelerate discovery of new KFERQ-bearing proteins.
-Web KFERQminer is avaible at this link:
+Web KFERQminer is avaible at this link: https://kferqminerapp.herokuapp.com/kferq/
 
 Motifs in the KFERQminer database
 KFERQminer database contains KFERQ-related motifs described in the literature as functional. All motifs currently in it were collected from papers available in PubMed. For a motif to be included in the database, it had to be confirmed by at least one laboratory experiment. It means that in silico demonstration of the mere presence of a potential motif in the substrate is not sufficient.
