@@ -31,8 +31,8 @@ QEIKR;Eps8;Welsch T;2010;10.1016/j.yexcr.2010.02.020;No;Co-IP;Co-IP;Co-localizat
 NVRDK;Huntingtin;Qi L;2012;10.1371/journal.pone.0046834;Yes;Co-IP;Co-IP;Binding & uptake in isolated lysosomes;CMA
 NEKFL;HIF1A;Ferreira JV;2013;10.4161/auto.25190;Yes;Co-IP;Co-IP;Accummulation in isolated lysosomes;CMA
 LFSINE;RhoH;Troeger A;2013;10.1074/jbc.M113.505727;No;Not investigated;Not investigated;Not investigated;CMA
-SFELD;AF1Q;Li P;2014;10.1016/j.yexcr.2014.05.013;Yes;Co-localization, Co-IP;Co-localization, Co-IP;Not investigated;CMA
-DIIRQ;PED;Quintavalle C;2014;10.1002/jcp.24569;No;Co-localization, Co-IP;Co-localization, Co-IP;Binding & uptake in isolated lysosomes;CMA
+SFELD;AF1Q;Li P;2014;10.1016/j.yexcr.2014.05.013;Yes;Co-localization, Co-IP;Co-localization and Co-IP;Not investigated;CMA
+DIIRQ;PED;Quintavalle C;2014;10.1002/jcp.24569;No;Co-localization and Co-IP;Co-localization and Co-IP;Binding & uptake in isolated lysosomes;CMA
 KLYEQ;RKIP;Wen Z;2014;10.1016/j.neurobiolaging.2014.05.034;Yes;Co-IP;Co-IP;Binding & uptake in isolated lysosomes;CMA
 QKSLV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated;Not investigated;Other (autophagy-mediated secretion)
 QLESV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated;Not investigated;Other (autophagy-mediated secretion)
