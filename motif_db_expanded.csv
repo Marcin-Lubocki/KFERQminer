@@ -24,7 +24,7 @@ KFDKQ;TBK1;Zhao X;2021;10.1080/15548627.2021.1963155;Yes;Not investigated;Not in
 LSREKQ;KPNA2;He J;2020;10.1080/15548627.2020.1823122;Yes;Co-IP;Co-IP;Not investigated;CMA
 RVLYNL;BBC3/PUMA;Xie W;2015;10.1080/15548627.2015.1075688;Yes;Not investigated;Co-IP;Binding & uptake in isolated lysosomes;CMA
 DKLVQ;CHK1;Park;2015;10.1038/ncomms7823;Yes;Not investigated;Co-IP;Co-localization with LAMP1;CMA
-RVLFLN;Rab22a-NeoF1;Zhong L;2021;10.1038/s41392-020-00414-1;Yes;Not investigated;Not investigated *;Co-localization with LAMP1;Exosomes
+RVLFLN;Rab22a-NeoF1;Zhong L;2021;10.1038/s41392-020-00414-1;Yes;Not investigated;Not investigated;Co-localization with LAMP1;Exosomes
 NEKFF;AHR;Chen J;2021;10.3390/ijms22041654;Yes;Co-IP;Co-IP;Not investigated;CMA
 QVDVR;Eps8;Welsch T;2010;10.1016/j.yexcr.2010.02.020;No;Co-IP;Co-IP;Co-localization with LAMP1;CMA
 QEIKR;Eps8;Welsch T;2010;10.1016/j.yexcr.2010.02.020;No;Co-IP;Co-IP;Co-localization with LAMP1;CMA
@@ -34,8 +34,8 @@ LFSINE;RhoH;Troeger A;2013;10.1074/jbc.M113.505727;No;Not investigated;Not inves
 SFELD;AF1Q;Li P;2014;10.1016/j.yexcr.2014.05.013;Yes;Co-localization, Co-IP;Co-localization, Co-IP;Not investigated;CMA
 DIIRQ;PED;Quintavalle C;2014;10.1002/jcp.24569;No;Co-localization, Co-IP;Co-localization, Co-IP;Binding & uptake in isolated lysosomes;CMA
 KLYEQ;RKIP;Wen Z;2014;10.1016/j.neurobiolaging.2014.05.034;Yes;Co-IP;Co-IP;Binding & uptake in isolated lysosomes;CMA
-QKSLV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated *;Not investigated;Other (autophagy-mediated secretion)
-QLESV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated *;Not investigated;Other (autophagy-mediated secretion)
+QKSLV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated;Not investigated;Other (autophagy-mediated secretion)
+QLESV;IL-1B;Zhang M;2015;10.7554/eLife.11205;Yes;Not investigated;Not investigated;Not investigated;Other (autophagy-mediated secretion)
 QEVLR;STING;Hu MM;2016;10.1016/j.immuni.2016.08.014;Yes;Not investigated;Co-IP;Co-localization with lysosomes;CMA
 KFFEQ;APP;Park JS;2016;10.5483/bmbrep.2016.49.6.212;No;Co-IP;Co-IP; Co-localization with lysosomes;CMA
 ILKEQ;PARK7;Wang B;2016;10.1080/15548627.2016.1179401;Yes;Not investigated;Co-IP;Co-localization with LAMP1, binding & uptake in isolated lysosomes;CMA
