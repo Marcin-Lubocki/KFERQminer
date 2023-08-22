@@ -33,7 +33,7 @@ NEKFL,HIF1A,Canonical,Ferreira JV,2013,10.4161/auto.25190,Yes,Co-IP,Co-IP,Accumm
 LFSINE,RhoH,Atypical,Troeger A,2013,10.1074/jbc.M113.505727,No,Not investigated,Not investigated,Not investigated,CMA
 SFELD,AF1Q,Atypical,Li P,2014,10.1016/j.yexcr.2014.05.013,Yes,Co-localization Co-IP,Co-localization and Co-IP,Not investigated,CMA
 DIIRQ,PED,Canonical,Quintavalle C,2014,10.1002/jcp.24569,No,Co-localization and Co-IP,Co-localization and Co-IP,Binding & uptake in isolated lysosomes,CMA
-KLYEQ,RKIP,Canonical,Wen Z,2014,10.1016/j.neurobiolaging.2014.05.034,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
+KLYEQ,RKIP,Atypical,Wen Z,2014,10.1016/j.neurobiolaging.2014.05.034,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
 QKSLV,IL-1B,Phosphorylated (phos. not checked),Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
 QLESV,IL-1B,Atypical,Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
 QEVLR,STING,Canonical,Hu MM,2016,10.1016/j.immuni.2016.08.014,Yes,Not investigated,Co-IP,Co-localization with lysosomes,CMA
