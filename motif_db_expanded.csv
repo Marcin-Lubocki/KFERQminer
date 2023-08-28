@@ -10,8 +10,6 @@ NVKFD,GPX4,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes, Co-IP,Co-IP,Accummul
 QVIEK,GPX4,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes, Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
 MRRPK,RCAN1,Atypical,Liu H,2009,10.1096/fj.09-134296,No,Not investigated,Not investigated,Not investigated,CMA
 KFERQ,RCAN1,Canonical,Liu H,2009,10.1096/fj.09-134296,No,Not investigated,Not investigated,Not investigated,CMA
-QELLR,YAP1,Canonical,Desideri E,2022,https://doi.org/10.1080/15548627.2022.2063004,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-QVERF,IL6ST,Canonical,Desideri E,2022,https://doi.org/10.1080/15548627.2022.2063004,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
 QVKKD,TPD-43/TARDBP,Canonical,Huang C,2014,10.1242/jcs.136150,Yes,Not investigated,Co-IP,Not investigated,CMA
 QIRDK,LRRK2,Canonical,Orenstein,2013,10.1038/nn.3350,Yes,Co-localization Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
 QRIEL,RND3,Canonical,Zhou,2016,10.1080/15548627.2015.1136770,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
