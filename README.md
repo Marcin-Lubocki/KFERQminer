@@ -47,3 +47,33 @@ Moreover, for non-bioinformatics people, **we will be happy to help in performin
 You will be asked to upload your sequences in fasta file. Make sure they are in a proper format. The analysis will start automatically. After that just scroll down to see your results.
 
 Empty tables mean your sequences did not have any KFERQ-related hits.
+
+**External tools**
+KFERQminer uses some external tools in its pipeline. The authors of KFERQminer are not the authors of these software. We therefore ask you to additionally cite the tools listed below.
+
+**MusiteDeep**
+https://www.musite.net/
+
+If you find analysis related to the prediction of post-translational modification sites useful and would like to publish your data, **please cite the following papers for using MusiceDeep**:
+Wang, D., et al. (2020) MusiteDeep: a deep-learning based webserver for protein post-translational modification site prediction and visualization, Nucleic Acids Research, Volume 48, Issue W1, 02 July 2020, Pages W140–W146
+Wang, D., et al. (2019) Capsule network for protein post-translational modification site prediction, Bioinformatics, 35(14), 2386-2394.
+Wang, D., et al. (2017) MusiteDeep: a deep-learning framework for general and kinase-specific phosphorylation site prediction, Bioinformatics, 33(24), 3909-3916.
+
+
+**IUPred3**
+https://iupred3.elte.hu/
+
+If you find analysis related to the intrinsically disordered region prediction useful and would like to publish your data, **please cite the following papers for using IUPred**:
+Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+IUPred3: prediction of protein disorder enhanced with unambiguous experimental annotation and visualization of evolutionary conservation
+Nucleic Acids Research 2021;49(W1):W297-W303.
+
+Bálint Mészáros, Gábor Erdős, Zsuzsanna Dosztányi
+IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+Nucleic Acids Research 2018;46(W1):W329-W337.
+
+Gábor Erdős, Zsuzsanna Dosztányi
+Analyzing Protein Disorder with IUPred2A
+Current Protocols in Bioinformatics 2020;70(1):e99
+
+
