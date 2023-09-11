@@ -73,23 +73,17 @@ https://iupred3.elte.hu/
 If you find analysis related to the intrinsically disordered region prediction useful and would like to publish your data, **please cite the following papers for using IUPred**:
 
 Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
-
 IUPred3: prediction of protein disorder enhanced with unambiguous experimental annotation and visualization of evolutionary conservation
-
 Nucleic Acids Research 2021;49(W1):W297-W303.
 
 
 Bálint Mészáros, Gábor Erdős, Zsuzsanna Dosztányi
-
 IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
-
 Nucleic Acids Research 2018;46(W1):W329-W337.
 
 
 Gábor Erdős, Zsuzsanna Dosztányi
-
 Analyzing Protein Disorder with IUPred2A
-
 Current Protocols in Bioinformatics 2020;70(1):e99
 
 
