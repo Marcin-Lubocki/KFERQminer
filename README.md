@@ -1,18 +1,49 @@
-# KFERQminer
-Searching for KFERQ-like motifs in whole proteomes
 
-The KFERQminer is a database of described in PubMed literature KFERQ-related motifs and bioinformatic tool that accelerate discovery of new KFERQ-bearing proteins.
-Web KFERQminer is avaible at this link: https://kferqminerapp.herokuapp.com/kferq/
 
-Motifs in the KFERQminer database
-KFERQminer database contains KFERQ-related motifs described in the literature as functional. All motifs currently in it were collected from papers available in PubMed. For a motif to be included in the database, it had to be confirmed by at least one laboratory experiment. It means that in silico demonstration of the mere presence of a potential motif in the substrate is not sufficient.
+Introduction to KFERQs
 
-To increase user’s comfort, the source paper is attached to every record in the KFERQminer database. If you find the KFERQminer useful in your research, please quote us.
-If you find that a particular motif is missing from the database, please let us know.
+KFERQs are short, linear motifs in protein sequences which are key elements in chaperone-mediated autophagy (CMA) and endosomal microautophagy (eMI). In both pathways the KFERQ motif is recognized by Hsp70 and its co-chaperones. After recognition the KFERQ-bearing protein is targeted for lysosomal degradation.
+<img src="https://raw.githubusercontent.com/Marcin-Lubocki/KFERQminer/master/kferq_logo_ver_1.png" height="160" align="right" style="height:240px">
 
-KFERQminer tool structure
-KFERQminer is a Python-based tool that uses a protein sequence in fasta format as an input from the user and subsequently searches for every possible KFERQ-like motif (based on canonical literature descriptions). Additionally, to narrow the results to the most probable true positives KFERQminer checks the input for the presence of motifs from the KFERQminer database. This way, KFERQminer is able to give the user 3 level scoring:
-1. The user’s protein contains a putative motif based on the classical motif descriptions.
-2. The user’s protein contains a motif that is similar to one described in literature. The claim is based on the amino acid charge order in a sequence, eg. hydrophobic amino acids are replaced with other hydrophobic amino acids.
-3. The user’s protein contains a motif that is identical (the exact match) to a motif that has been already described in another study.
-In the case of levels 2 and 3, due to the fact the source studies used different methodologies for verifying a motif, we decided to give the user information about the source paper and let him decide on his own about its utility in his research.
+
+**The KFERQminer tool**
+
+KFERQminer is an easy to use bioinformatics tool used for scanning user's protein sequences in order to find KFERQ-related motifs.
+In order to support true positive hits we have developed the KFERQminer Database, which allows the exploration of already described KFERQ motifs. The collection is continuously updated and involves a thorough manual review of papers published in PubMed, searching for CMA-related keywords to extract and summarize the existing data. The collected set is subsequently used for sequence analysis and the development of new in silico KFERQ motif searching tool. 
+
+You can find the collected motifs in **the KFERQminer Database** with annotated metadata here: https://github.com/Marcin-Lubocki/KFERQminer/blob/master/motif_db_expanded.csv and at the bottom of this notebook.
+
+During the analysis your sequences will be checked for the presence of:
+1. **hypothetical motifs** according to the common literature rules of KFERQ motif (aka canonical);
+2. sequences **identical** to motifs collected from the literature;
+3. sequences **similar** to motifs collected from the literature (it means they possess the same residue charge order).
+
+In addition, we extract from the KFERQminer Database a set of high-quality motifs in order to build the first PSSM matrices, allowing us to assign mathematical scoring. To deal with the small dataset problem, we use: (i) Laplace smoothing to remove the zero probability problem, and (ii) an additional PSSM matrix based on a reduced alphabet by clustering amino acids based on their biochemical properties.
+
+As the meta-analysis of the KFERQminer database showed that motifs requiring post-translational modifications are underrepresented, in order to support their further discovery we decided to use additional external software MusiteDeep (Wang et al., 2020) to predict whether a given motif can be phosphorylated or acetylated. In addition, using the knowledge that most short linear motifs are located in Intrinsically disordered regions, we calculate such probability for each motif using IUPred3 (Erdős et al., 2021). The whole pipeline is presented in Figure 2.
+
+---
+
+
+We wish to highlight some limitations:
+
+- The records origin from manual PubMed review, so errors or missing motifs can occur. If you observe any error or missing record you can contact us via e-mail: marcin.lubocki@phdstud.ug.edu.pl. Thorough manual collection is very complex and time consumig process, though we will appreciate the help from other KFERQ researchers.
+- As our goal was to collect the data published in peer-review journals, we did not question the quality of the results presented there. The metadata is therefore consistent with the authors' conclusions in the source publications.
+- As a result, we included atypical motifs that do not meet the canonical rules, but which have been described in the literature.
+- This is the beta version of the KFERQminer software. Please have in mind that you can approach a missed error. Please contact us if you find any.
+
+---
+
+**How to start**
+
+Our tool has been made available as Jupyter Notebook. 
+Also, to help non-technical users and ensure stability and computing power, we have made the entire software available in the form of a Jupyter Notebook via Google Colab (https://colab.research.google.com/drive/1QkC-qBJVku-iBEXDIQgkhjHUP-ZDZJOs?usp=sharing). Thanks to that the only requirement is to sign in to your google account.
+
+In the Google Colab version, we have implemented comprehensive analysis by default using all available options. In this way, the user is only asked to load the input file, on which all analyzes will then be performed automatically. Please note that Google Colab has certain **limitations** regarding long analyzes, so for Big Data analyzes we suggest running the software in a local environment to avoid unnecessary errors. 
+For non-technical people who encounter problems with running the tool in a local environment, **we will be happy to help by lending our computing resources**.
+Moreover, for non-bioinformatics people, **we will be happy to help in performing more dedicated analyzes that will require dedicated development or tuning of the software**.
+
+**To start your analysis on Google Colab just choose 'Executable environment' (at the very top of the page) and click 'Run all' or just press Ctrl+F9.**
+You will be asked to upload your sequences in fasta file. Make sure they are in a proper format. The analysis will start automatically. After that just scroll down to see your results.
+
+Empty tables mean your sequences did not have any KFERQ-related hits.
