@@ -1,6 +1,6 @@
 
 
-Introduction to KFERQs
+**Introduction to KFERQs**
 
 KFERQs are short, linear motifs in protein sequences which are key elements in chaperone-mediated autophagy (CMA) and endosomal microautophagy (eMI). In both pathways the KFERQ motif is recognized by Hsp70 and its co-chaperones. After recognition the KFERQ-bearing protein is targeted for lysosomal degradation.
 <img src="https://raw.githubusercontent.com/Marcin-Lubocki/KFERQminer/master/kferq_logo_ver_1.png" height="160" align="right" style="height:240px">
