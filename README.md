@@ -71,6 +71,7 @@ Wang, D., et al. (2017) MusiteDeep: a deep-learning framework for general and ki
 https://iupred3.elte.hu/
 
 If you find analysis related to the intrinsically disordered region prediction useful and would like to publish your data, **please cite the following papers for using IUPred**:
+
 Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
 
 IUPred3: prediction of protein disorder enhanced with unambiguous experimental annotation and visualization of evolutionary conservation
