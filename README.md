@@ -48,10 +48,14 @@ You will be asked to upload your sequences in fasta file. Make sure they are in 
 
 Empty tables mean your sequences did not have any KFERQ-related hits.
 
+---
+
 **External tools**
+
 KFERQminer uses some external tools in its pipeline. The authors of KFERQminer are not the authors of these software. We therefore ask you to additionally cite the tools listed below.
 
 **MusiteDeep**
+
 https://www.musite.net/
 
 If you find analysis related to the prediction of post-translational modification sites useful and would like to publish your data, **please cite the following papers for using MusiceDeep**:
@@ -61,6 +65,7 @@ Wang, D., et al. (2017) MusiteDeep: a deep-learning framework for general and ki
 
 
 **IUPred3**
+
 https://iupred3.elte.hu/
 
 If you find analysis related to the intrinsically disordered region prediction useful and would like to publish your data, **please cite the following papers for using IUPred**:
