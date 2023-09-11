@@ -1,0 +1,11 @@
+# BioPython
+biopython==1.79
+
+# Pandas: Library for data manipulation and tabular representation
+pandas==1.3.3
+
+# NumPy: for calculating PSSM matrix
+numpy==1.21.2
+
+# Libraries necessary for MusiteDeep implementation
+requests==2.26.0
