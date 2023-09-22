@@ -25,7 +25,6 @@ QVDVR,Eps8,Canonical,Welsch T,2010,10.1016/j.yexcr.2010.02.020,No,Co-IP,Co-IP,Co
 QEIKR,Eps8,Canonical,Welsch T,2010,10.1016/j.yexcr.2010.02.020,No,Co-IP,Co-IP,Co-localization with LAMP1,CMA
 NVRDK,Huntingtin,Canonical,Qi L,2012,10.1371/journal.pone.0046834,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
 NEKFL,HIF1A,Canonical,Ferreira JV,2013,10.4161/auto.25190,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-LFSINE,RhoH,Atypical,Troeger A,2013,10.1074/jbc.M113.505727,No,Not investigated,Not investigated,Not investigated,CMA
 SFELD,AF1Q,Atypical,Li P,2014,10.1016/j.yexcr.2014.05.013,Yes,Co-localization Co-IP,Co-localization and Co-IP,Not investigated,CMA
 DIIRQ,PED,Canonical,Quintavalle C,2014,10.1002/jcp.24569,No,Co-localization and Co-IP,Co-localization and Co-IP,Binding & uptake in isolated lysosomes,CMA
 KLYEQ,RKIP,Atypical,Wen Z,2014,10.1016/j.neurobiolaging.2014.05.034,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
