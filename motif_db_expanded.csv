@@ -1,4 +1,4 @@
-Motif,Protein,UniProtID,Type,First author,Year,DOI,Site-directed mutagenesis,Interaction with LAMP2A,Interaction with Hsp70,Association with lysosomes,Biological process
+Motif,Protein,UniProt ID,Type,First author,Year,DOI,Site-directed mutagenesis,Interaction with LAMP2A,Interaction with Hsp70,Association with lysosomes,Biological process
 NLRVE,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
 FRELN,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
 QKDLVQ,MDM2,Q00987,Canonical,Te-Ling Lu ,2010,10.1016/j.bbrc.2010.06.004,No,Co-IP,Co-IP,Not investigated,CMA
