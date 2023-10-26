@@ -48,3 +48,4 @@ QVERF,IL6ST,P40189,Canonical,Desideri E,2023,10.1080/15548627.2022.2063004,Yes,C
 DGRLQ,SMAD3,Q8BUN5,Atypical,Liu H,2022,10.1007/s12264-022-00818-9,Yes,Not investigated,Co-IP,Accumulation in isolated lysosomes,CMA
 QRVET,SMAD3,Q8BUN5,Atypical,Liu H,2022,10.1007/s12264-022-00818-9,Yes,Not investigated,Co-IP,Accumulation in isolated lysosomes,CMA
 SLRLQ,B7-H3,Q5ZPR3,Phosphorylated (phos. not checked),Wang M,2023,10.1038/s41419-023-06027-0,Yes,Co-IP,Co-IP,Not clear,CMA
+QDRFV,p300,Q09472,Canonical,Wu J,2023,10.1126/sciadv.adi8343,Yes,Co-localization,Co-localization Co-IP,Not investigated,CMA
