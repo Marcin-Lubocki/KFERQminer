@@ -1,22 +1,22 @@
 Motif,Protein,UniProt ID,Type,First author,Year,DOI,Site-directed mutagenesis,Interaction with LAMP2A,Interaction with Hsp70,Association with lysosomes,Biological process
-NLRVE,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-FRELN,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
+NLRVE,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+FRELN,p53,P04637,Canonical,Vakifahmetoglu-Norberg H,2013,10.1101/gad.220897.113,No,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
 QKDLVQ,MDM2,Q00987,Canonical,Te-Ling Lu ,2010,10.1016/j.bbrc.2010.06.004,No,Co-IP,Co-IP,Not investigated,CMA
 LDRLQ,PLIN3,Q9DBG5,Canonical,Kaushik S and Cuervo AM,2015,10.1038/ncb3166,No,Not investigated,Co-localization;Co-IP,Co-localization with LAMP1,CMA
 SLKVQ,PLIN2,P43883,Phosphorylated (phos. not checked),Kaushik S and Cuervo AM,2015,10.1038/ncb3166,Yes,Not investigated,Co-localization;Co-IP,Co-localization with LAMP1,CMA
 RKKIQ,MEF2D,Q63943,Atypical,Yang Q,2009,10.1126/science.1166088,Yes,Not investigated,Co-IP,Binding & uptake in isolated lysosomes,CMA
 DERNR,MEF2D,Q63943,Atypical,Yang Q,2009,10.1126/science.1166088,Yes,Not investigated,Co-IP,Binding & uptake in isolated lysosomes,CMA
-NVKFD,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-QVIEK,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
+NVKFD,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+QVIEK,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
 QVKKD,TARDBP,Q13148,Canonical,Huang C,2014,10.1242/jcs.136150,Yes,Not investigated,Co-IP,Not investigated,CMA
-QIRDK,LRRK2,Q5S007,Canonical,Orenstein,2013,10.1038/nn.3350,Yes,Co-localization;Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-QRIEL,RND3,P61588,Canonical,Zhou,2016,10.1080/15548627.2015.1136770,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
-QLFEE,PKM2,P14618,Atypical,Lv,2011,10.1016/j.molcel.2011.04.025,Yes,Not investigated,Co-IP,Accummulation in isolated lysosomes,CMA
+QIRDK,LRRK2,Q5S007,Canonical,Orenstein,2013,10.1038/nn.3350,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+QRIEL,RND3,P61588,Canonical,Zhou,2016,10.1080/15548627.2015.1136770,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+QLFEE,PKM2,P14618,Atypical,Lv,2011,10.1016/j.molcel.2011.04.025,Yes,Not investigated,Co-IP,Accumulation in isolated lysosomes,CMA
 QFPFKE,Vav1,P15498,Atypical,Razidlo,2013,10.1016/j.devcel.2013.02.010.,Yes,Not investigated,Co-IP,Co-localization with LAMP1,CMA
-QRFEK,HK2,P52789,Canonical,Xia,2015,10.1083/jcb.201503044.,Yes,Not investigated,Co-IP,Accummulation in isolated lysosomes,CMA
+QRFEK,HK2,P52789,Canonical,Xia,2015,10.1083/jcb.201503044.,Yes,Not investigated,Co-IP,Accumulation in isolated lysosomes,CMA
 QRWVD,MARCHF5,Q9NX47,Atypical,Nie T,2020,10.1080/15548627.2020.1848128,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
 RLEVQ,Arouser,Q9U3Z9,Canonical,Jacomin AC,2020,10.26508/lsa.202000965,Yes,Not investigated,Co-IP,Co-localization with LAMP1,eMi
-KFDKQ,TBK1,Q9UHD2,Canonical,Zhao X,2021,10.1080/15548627.2021.1963155,Yes,Not investigated,Not investigated,Accummulation in isolated lysosomes,CMA
+KFDKQ,TBK1,Q9UHD2,Canonical,Zhao X,2021,10.1080/15548627.2021.1963155,Yes,Not investigated,Not investigated,Accumulation in isolated lysosomes,CMA
 LSREKQ,KPNA2,P52292,Atypical,He J,2020,10.1080/15548627.2020.1823122,Yes,Co-IP,Co-IP,Not investigated,CMA
 RVLYN,BBC3/PUMA,Q9BXH1,Phosphorylated (phos. not checked),Xie W,2015,10.1080/15548627.2015.1075688,Yes,Not investigated,Co-IP,Binding & uptake in isolated lysosomes,CMA
 DKLVQ,CHK1,O14757,Canonical,Park,2015,10.1038/ncomms7823,Yes,Not investigated,Co-IP,Co-localization with LAMP1,CMA
@@ -24,7 +24,7 @@ NEKFF,AHR,P35869,Canonical,Chen J,2021,10.3390/ijms22041654,Yes,Co-IP,Co-IP,Not 
 QVDVR,Eps8,Q12929,Canonical,Welsch T,2010,10.1016/j.yexcr.2010.02.020,No,Co-IP,Co-IP,Co-localization with LAMP1,CMA
 QEIKR,Eps8,Q12929,Canonical,Welsch T,2010,10.1016/j.yexcr.2010.02.020,No,Co-IP,Co-IP,Co-localization with LAMP1,CMA
 NVRDK,Huntingtin,P42858,Canonical,Qi L,2012,10.1371/journal.pone.0046834,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
-NEFKL,HIF1A,Q16665,Canonical,Ferreira JV,2013,10.4161/auto.25190,Yes,Co-IP,Co-IP,Accummulation in isolated lysosomes,CMA
+NEFKL,HIF1A,Q16665,Canonical,Ferreira JV,2013,10.4161/auto.25190,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
 SFELD,AF1Q,Q13015,Atypical,Li P,2014,10.1016/j.yexcr.2014.05.013,Yes,Co-localization;Co-IP,Co-localization;Co-IP,Not investigated,CMA
 DIIRQ,PED,Q15121,Canonical,Quintavalle C,2014,10.1002/jcp.24569,No,Co-localization;Co-IP,Co-localization;Co-IP,Binding & uptake in isolated lysosomes,CMA
 KLYEQ,RKIP,P30086,Atypical,Wen Z,2014,10.1016/j.neurobiolaging.2014.05.034,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
@@ -34,10 +34,10 @@ QEVLR,STING,Q86WV6,Canonical,Hu MM,2016,10.1016/j.immuni.2016.08.014,Yes,Not inv
 KFFEQ,APP,P05067,Canonical,Park JS,2016,10.5483/bmbrep.2016.49.6.212,No,Co-IP,Co-IP,Co-localization with lysosomes,CMA
 ILKEQ,PARK7,Q99497,Canonical,Wang B,2016,10.1080/15548627.2016.1179401,Yes,Not investigated,Co-IP,Co-localization with LAMP1;Binding & uptake in isolated lysosomes,CMA
 KIREI,TCTP,P13693,Acetylated,Bonhoure A,2017,10.1016/j.ejcb.2016.12.002,Yes,Co-localization;Co-IP,Co-IP,Co-localization with isolated lysosomes,CMA
-QCVKK,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accummulation in isolated lysosomes;Co-localization with lysosomes,CMA
-RLCFQ,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accummulation in isolated lysosomes;Co-localization with lysosomes,CMA
-QKEDI,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accummulation in isolated lysosomes;Co-localization with lysosomes,CMA
-DVHRQ,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accummulation in isolated lysosomes;Co-localization with lysosomes,CMA
+QCVKK,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes;Co-localization with lysosomes,CMA
+RLCFQ,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes;Co-localization with lysosomes,CMA
+QKEDI,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes;Co-localization with lysosomes,CMA
+DVHRQ,p65,Q04206,Atypical,Tang J,2017,10.1038/oncsis.2017.85,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes;Co-localization with lysosomes,CMA
 QREVV,HNFA,P20823,Canonical,Matsui C,2018,10.1128/JVI.00639-18,Yes,Not investigated,Co-IP,Co-localization with lysosomes,CMA
 QIRDL,DBY,O15523,Canonical,Kretschmann S,2019,10.1172/JCI123105,Yes,Not investigated,Co-localization;Co-IP,Not investigated,Exosomes
 QIEKR,BMAL1,O00327,Canonical,Juste R Y and Cuervo AM,2021,10.1038/s41556-021-00800-z,Yes,Co-localization;Co-IP,Co-localization;Co-IP,Binding & uptake in isolated lysosomes,CMA
