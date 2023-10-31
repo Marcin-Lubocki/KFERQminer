@@ -28,8 +28,8 @@ NEFKL,HIF1A,Q16665,Canonical,Ferreira JV,2013,10.4161/auto.25190,Yes,Co-IP,Co-IP
 SFELD,AF1Q,Q13015,Atypical,Li P,2014,10.1016/j.yexcr.2014.05.013,Yes,Co-localization;Co-IP,Co-localization;Co-IP,Not investigated,CMA
 DIIRQ,PED,Q15121,Canonical,Quintavalle C,2014,10.1002/jcp.24569,No,Co-localization;Co-IP,Co-localization;Co-IP,Binding & uptake in isolated lysosomes,CMA
 KLYEQ,RKIP,P30086,Atypical,Wen Z,2014,10.1016/j.neurobiolaging.2014.05.034,Yes,Co-IP,Co-IP,Binding & uptake in isolated lysosomes,CMA
-QKSLV,IL-1B,P01584,Phosphorylated (phos. not checked),Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
-QLESV,IL-1B,P01584,Atypical,Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
+QKSLV,IL-1B,P01584,Phosphorylated (phos. not checked),Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
+QLESV,IL-1B,P01584,Atypical,Zhang M,2015,10.7554/eLife.11205,Yes,Not investigated,Not investigated,Not investigated,Other (autophagy-mediated secretion)
 QEVLR,STING,Q86WV6,Canonical,Hu MM,2016,10.1016/j.immuni.2016.08.014,Yes,Not investigated,Co-IP,Co-localization with lysosomes,CMA
 KFFEQ,APP,P05067,Canonical,Park JS,2016,10.5483/bmbrep.2016.49.6.212,No,Co-IP,Co-IP,Co-localization with lysosomes,CMA
 ILKEQ,PARK7,Q99497,Canonical,Wang B,2016,10.1080/15548627.2016.1179401,Yes,Not investigated,Co-IP,Co-localization with LAMP1;binding & uptake in isolated lysosomes,CMA
