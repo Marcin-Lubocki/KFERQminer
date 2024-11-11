@@ -6,8 +6,8 @@ LDRLQ,PLIN3,Q9DBG5,Canonical,Kaushik S and Cuervo AM,2015,10.1038/ncb3166,No,No
 SLKVQ,PLIN2,P43883,Phosphorylated (phos. not checked),Kaushik S and Cuervo AM,2015,10.1038/ncb3166,Yes,Not investigated,Co-localization;Co-IP,Co-localization with LAMP1,CMA
 RKKIQ,MEF2D,Q63943,Atypical,Yang Q,2009,10.1126/science.1166088,Yes,Not investigated,Co-IP,Binding & uptake in isolated lysosomes,CMA
 DERNR,MEF2D,Q63943,Atypical,Yang Q,2009,10.1126/science.1166088,Yes,Not investigated,Co-IP,Binding & uptake in isolated lysosomes,CMA
-NVKFD,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
-QVIEK,GPX4,Q32QL6,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+NVKFD,GPX4,P36969,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
+QVIEK,GPX4,P36969,Canonical,Wu Z,2019,10.1073/pnas.1819728116,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
 QVKKD,TARDBP,Q13148,Canonical,Huang C,2014,10.1242/jcs.136150,Yes,Not investigated,Co-IP,Not investigated,CMA
 QIRDK,LRRK2,Q5S007,Canonical,Orenstein,2013,10.1038/nn.3350,Yes,Co-localization;Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
 QRIEL,RND3,P61588,Canonical,Zhou,2016,10.1080/15548627.2015.1136770,Yes,Co-IP,Co-IP,Accumulation in isolated lysosomes,CMA
