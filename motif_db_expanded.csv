@@ -50,3 +50,4 @@ QRVET,SMAD3,Q8BUN5,Atypical,Liu H,2022,10.1007/s12264-022-00818-9,Yes,Not invest
 SLRLQ,B7-H3,Q5ZPR3,Phosphorylated (phos. not checked),Wang M,2023,10.1038/s41419-023-06027-0,Yes,Co-IP,Co-IP,Not clear,CMA
 QDRFV,p300,Q09472,Canonical,Wu J,2023,10.1126/sciadv.adi8343,Yes,Co-localization,Co-localization;Co-IP,Not investigated,CMA
 KIIEQ,DNA excision repair protein ERCC-6,Q03468,Canonical,Huang Y,2023,10.1038/s41421-023-00601-8,Yes,Not investigated,Co-IP;PLA,Not investigated,CMA
+QELLR,SERPINA1,P01009,Canonical,Lin J,2025,10.1080/15548627.2025.2480037,Yes,Co-IP,Co-IP;IF,Not investigated,CMA
