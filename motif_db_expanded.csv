@@ -53,3 +53,4 @@ KIIEQ,DNA excision repair protein ERCC-6,Q03468,Canonical,Huang Y,2023,10.1038/s
 QELLR,SERPINA1,P01009,Canonical,Lin J,2025,10.1080/15548627.2025.2480037,Yes,Co-IP,Co-IP;IF,Not investigated,CMA
 KFERQ,RNaseA,P61823,Canonical,Terlecky S,1992,10.1016/S0021-9258(19)50408-2,Yes,Not investigated,Affinity chromatography;Cell-free competition binding,Uptake & degradation of isolated lysosomes,CMA
 QVEKR,DGAT1,O75907,Canonical,Yuliandari P,2022,10.1080/27694127.2022.2095591,Yes,Not investigated,Co-IP,Colocalization with LysoTracker,eMi
+QELFK,Mutant GFP,NA,Canonical,Anisimov S,2025,10.1016/j.jbc.2025.110292,Yes,Not investigated,Not investigated,Not investigated,CMA
