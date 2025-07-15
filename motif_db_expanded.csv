@@ -56,4 +56,4 @@ QVEKR,DGAT1,O75907,Canonical,Yuliandari P,2022,10.1080/27694127.2022.2095591,Yes
 QELFK,Mutant GFP,NA,Canonical,Anisimov S,2025,10.1016/j.jbc.2025.110292,Yes,Not investigated,Not investigated,Not investigated,CMA
 VKAEN,GAPDH,P04406,Atypical,Terasawa K,2021,10.1080/15548627.2021.1911017,Yes,Not investigated,Not investigated,LAMP2a-dependent puncta formation,CMA
 QVDRL,PEDV Spike,Q91AV1,Canonical,Qian Q,2025,10.1128/jvi.00347-25,Yes,Colocalization,Co-IP;Colocalization,Colocalization with LAMP2a,CMA
-QEKLI,FMDV RdRp,PRO_0000039885,Canonical,Ren M,2025,10.1128/jvi.00168-25,Yes,Not investigated,Co-IP,Not investigated,CMA
+QEKLI,FMDV RdRp,P03305;PRO_0000039885,Canonical,Ren M,2025,10.1128/jvi.00168-25,Yes,Not investigated,Co-IP,Not investigated,CMA
