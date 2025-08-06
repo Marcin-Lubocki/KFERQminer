@@ -259,12 +259,3 @@ sp|O60488|ACSL4_HUMAN Long-chain-fatty-acid--CoA ligase 4 OS=Homo sapiens OX=960
 "sp|P19174|PLCG1_HUMAN 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 OS=Homo sapiens OX=9606 GN=PLCG1 PE=1 SV=1",QLSRI,phosphorylated,1007,-16.33,-15.06,-14.61,0.24,0.35
 "sp|P19174|PLCG1_HUMAN 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 OS=Homo sapiens OX=9606 GN=PLCG1 PE=1 SV=1",FRISQ,phosphorylated,1260,-12.55,-14.2,-14.93,0.39,0.57
 "sp|P19174|PLCG1_HUMAN 1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1 OS=Homo sapiens OX=9606 GN=PLCG1 PE=1 SV=1",RTRVN,phosphorylated,1281,-12.28,-14.62,-12.16,0.72,0.41
-sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2,QIRDL,canonical,307,10.01,8.7,8.21,0.18,0.14
-sp|O15523|DDX3Y_HUMAN ATP-dependent RNA helicase DDX3Y OS=Homo sapiens OX=9606 GN=DDX3Y PE=1 SV=2,RIVEQ,canonical,361,5.74,5.89,8.58,0.43,0.29
-tr|Q9U3Z9|Q9U3Z9_DROME Arouser OS=Drosophila melanogaster OX=7227 GN=aru PE=2 SV=1,NIIER,canonical,117,7.7,6.24,8.58,0.31,0.28
-tr|Q9U3Z9|Q9U3Z9_DROME Arouser OS=Drosophila melanogaster OX=7227 GN=aru PE=2 SV=1,KLSFN,phosphorylated,374,-14.54,-15.05,-13.02,0.03,0.37
-tr|Q9U3Z9|Q9U3Z9_DROME Arouser OS=Drosophila melanogaster OX=7227 GN=aru PE=2 SV=1,KRRLE,acetylated,500,-15.59,-15.87,-14.28,0.7,0.56
-tr|Q9U3Z9|Q9U3Z9_DROME Arouser OS=Drosophila melanogaster OX=7227 GN=aru PE=2 SV=1,RLEVQ,canonical,502,9.13,8.55,8.32,0.65,0.58
-sp|O75907|DGAT1_HUMAN Diacylglycerol O-acyltransferase 1 OS=Homo sapiens OX=9606 GN=DGAT1 PE=1 SV=2,NLIKY,phosphorylated,107,-13.4,-14.48,-14.35,0.01,0
-sp|O75907|DGAT1_HUMAN Diacylglycerol O-acyltransferase 1 OS=Homo sapiens OX=9606 GN=DGAT1 PE=1 SV=2,QVEKR,canonical,149,9.66,9.16,8.29,0.02,0
-sp|O75907|DGAT1_HUMAN Diacylglycerol O-acyltransferase 1 OS=Homo sapiens OX=9606 GN=DGAT1 PE=1 SV=2,KLLRE,acetylated,321,-14.09,-15.83,-15.47,0.01,0
